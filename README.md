@@ -11,3 +11,6 @@ look at addhosts_vcenter.yml for changes
 - enable vsan
 - pause timer (needed) and claim disks for cache and capcity based on size
 - community.vmware.vmware_vmkernel (enabled vsan)
+
+
+look at whatodo.txt for example
