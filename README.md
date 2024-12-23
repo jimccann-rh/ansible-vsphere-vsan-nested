@@ -4,6 +4,7 @@
 look at esxinested.yml for changes:
 - changes to cpu config and vm version
 - changes to controller type
+- added two different disk sizes
 
 look at addhosts_vcenter.yml for changes:
 - changed order of enabling HA
