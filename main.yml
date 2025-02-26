@@ -23,7 +23,7 @@
     - always
 
 - name: create nested VM's
-  hosts: ciremote
+  hosts: remotedevqe
   #connection: local
   gather_facts: true
   vars:
