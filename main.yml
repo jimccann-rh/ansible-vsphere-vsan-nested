@@ -1,6 +1,6 @@
 ---
 
-- hosts: ciremote
+- hosts: remotedevqe
   #connection: local
   become: false
   gather_facts: false
