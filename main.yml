@@ -100,7 +100,7 @@
       tags:
         - vcnested
 
-- hosts: ciremote
+- hosts: remotedevqe
   #connection: local
   name: ESXi add vcenter
   gather_facts: False
@@ -141,7 +141,7 @@
        - vcenterhost
 
 - name: REMOVE nested VM's
-  hosts: ciremote
+  hosts: remotedevqe
   #connection: local
   gather_facts: true
   vars:
