@@ -6,7 +6,8 @@
 # ORDER of idrac and esxi is IMPORTANT
 
 [all]
-ciremote ansible_host=10.93.245.232 ansible_user=root
+remotedevqe ansible_host=10.185.92.26 ansible_user=root
+#ciremote ansible_host=10.93.245.232 ansible_user=root
 
 [web]
 #localhost
